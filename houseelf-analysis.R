@@ -11,7 +11,7 @@ gc_content <- function(file){
 }
 #7
 get_size_class <- function(ear_length){
-  # Calculate the size class for one or more earth lengths
+  # Calculate the size class for one or more ear lengths
   ear_lengths <- ifelse(ear_length > 10, "large", "small")
   return(ear_lengths)
 }
